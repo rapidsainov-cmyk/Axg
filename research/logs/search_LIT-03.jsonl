@@ -17,3 +17,12 @@
 {"ts": "2026-10-25T06:22:32Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=sparse autoencoders find highly interpretable features language models &sort=relevance_score:desc", "n_results": 12304, "n_new_relevant": 0}
 {"ts": "2026-10-25T06:22:35Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=scaling and evaluating sparse autoencoders &sort=relevance_score:desc", "n_results": 76424, "n_new_relevant": 0}
 {"ts": "2026-10-25T06:22:38Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=JumpReLU sparse autoencoders reconstruction fidelity &sort=relevance_score:desc", "n_results": 272, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:22:41Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=gated sparse autoencoders improving dictionary learning &sort=relevance_score:desc", "n_results": 3202, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:22:44Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=BatchTopK sparse autoencoders &sort=relevance_score:desc", "n_results": 222, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:22:47Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Matryoshka sparse autoencoders multi-level features &sort=relevance_score:desc", "n_results": 227, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:22:50Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=SAEBench benchmark sparse autoencoders &sort=relevance_score:desc", "n_results": 138, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:22:53Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=AxBench steering simple baselines outperform sparse autoencoders &sort=relevance_score:desc", "n_results": 204, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:22:56Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=dark matter of sparse autoencoders &sort=relevance_score:desc", "n_results": 2711, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:22:59Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=sanity checks sparse autoencoders random baselines &sort=relevance_score:desc", "n_results": 861, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:23:02Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=sparse autoencoders interpret randomly initialized transformers &sort=relevance_score:desc", "n_results": 16184, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:23:05Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=are sparse autoencoders useful sparse probing &sort=relevance_score:desc", "n_results": 6745, "n_new_relevant": 0}
