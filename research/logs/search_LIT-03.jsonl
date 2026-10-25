@@ -52,3 +52,18 @@
 {"ts": "2026-10-25T06:28:09Z", "catalog": "OpenAlex", "query_or_endpoint": "FORWARD filter=cites:W4415800382 (MatFormer) sort=cited_by_count:desc", "n_results": 9, "n_new_relevant": 0}
 {"ts": "2026-10-25T06:28:12Z", "catalog": "OpenAlex", "query_or_endpoint": "works/W4387596623 (anchor record MatFormer)", "n_results": 1, "n_new_relevant": 0}
 {"ts": "2026-10-25T06:28:13Z", "catalog": "OpenAlex", "query_or_endpoint": "FORWARD filter=cites:W4387596623 (MatFormer) sort=cited_by_count:desc", "n_results": 3, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:29:44Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma 4 E2B interpretability &sort=relevance_score:desc", "n_results": 228, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:29:47Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma 4 sparse autoencoder features &sort=relevance_score:desc", "n_results": 1385, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:29:50Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma-4 activation steering residual stream &sort=relevance_score:desc", "n_results": 992, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:29:53Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma 3n interpretability &sort=relevance_score:desc", "n_results": 312, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:29:57Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma 3 mechanistic interpretability circuits &sort=relevance_score:desc", "n_results": 1316, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:00Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma 2 2B circuit analysis attention heads &sort=relevance_score:desc", "n_results": 444, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:03Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma 2 9B sparse autoencoder steering case study &sort=relevance_score:desc", "n_results": 256, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:08Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma Scope transcoders attribution graphs Gemma 3 &sort=relevance_score:desc", "n_results": 70, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:11Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=open-source circuit tracing library &sort=relevance_score:desc", "n_results": 14672, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:15Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Anthropic attribution graphs replication open models &sort=relevance_score:desc", "n_results": 1004, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:20Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=KV cache sharing across layers transformer &sort=relevance_score:desc", "n_results": 5474, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:23Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=cross-layer attention reducing key-value cache &sort=relevance_score:desc", "n_results": 27033, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:27Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=you only cache once decoder-decoder architecture &sort=relevance_score:desc", "n_results": 9812, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:32Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=rotary positional encodings useful p-RoPE &sort=relevance_score:desc", "n_results": 1144, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:30:35Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=query-key normalization transformers &sort=relevance_score:desc", "n_results": 86162, "n_new_relevant": 0}
