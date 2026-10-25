@@ -33,3 +33,5 @@ Downloading statsmodels (11.5MiB)
  Downloaded pygments
  Downloaded fonttools
  Downloaded pillow
+ Downloaded matplotlib
+ Downloaded numpy
