@@ -30,7 +30,20 @@ def jl(p):
 
 
 def sources():
-    return {r["source_id"]: r for r in csv.DictReader(open(SRC, encoding="utf-8"))} if os.path.exists(SRC) else {}
+    """Registry rows keyed by id; duplicate ids from evidence/source_dedup_map.csv resolve to the kept row."""
+    if not os.path.exists(SRC):
+        return {}
+    src = {r["source_id"]: r for r in csv.DictReader(open(SRC, encoding="utf-8"))}
+    dm = os.path.join(R, "evidence", "source_dedup_map.csv")
+    aliases = {}
+    if os.path.exists(dm):
+        aliases = {r["duplicate_id"]: src[r["kept_id"]] for r in csv.DictReader(open(dm)) if r["kept_id"] in src}
+    sources.aliases = aliases
+    return src
+
+
+def resolve(sid, src):
+    return src.get(sid) or getattr(sources, "aliases", {}).get(sid)
 
 
 def validate():
@@ -44,7 +57,7 @@ def validate():
         if c.get("status") == "CANDIDATE": errs.append(f"{cid}: CANDIDATE belongs in the hypothesis register")
         if c.get("claim_type") not in CLAIM_TYPES: errs.append(f"{cid}: bad claim_type {c.get('claim_type')}")
         refs = c.get("primary_sources", []) + [e.get("ref") for e in c.get("supporting_evidence", []) + c.get("contradicting_evidence", [])]
-        errs += [f"{cid}: unknown source {s}" for s in refs if s and SRC_RE.match(s) and s not in src]
+        errs += [f"{cid}: unknown source {s}" for s in refs if s and SRC_RE.match(s) and not resolve(s, src)]
         errs += [f"{cid}: missing artifact {a}" for a in c.get("artifacts", []) if not os.path.exists(os.path.join(R, a))]
         errs += [f"{cid}: missing audit file {a}" for a in (c.get("audit") or []) if not os.path.exists(os.path.join(R, a))]
         if c.get("status") in {"EXPERIMENTALLY_SUPPORTED", "REPLICATED", "ROBUST"} and not c.get("artifacts"):
