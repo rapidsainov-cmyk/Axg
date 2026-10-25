@@ -52,3 +52,6 @@
 {"ts": "2026-10-25T06:28:09Z", "catalog": "OpenAlex", "query_or_endpoint": "FORWARD filter=cites:W4415800382 (MatFormer) sort=cited_by_count:desc", "n_results": 9, "n_new_relevant": 0}
 {"ts": "2026-10-25T06:28:12Z", "catalog": "OpenAlex", "query_or_endpoint": "works/W4387596623 (anchor record MatFormer)", "n_results": 1, "n_new_relevant": 0}
 {"ts": "2026-10-25T06:28:13Z", "catalog": "OpenAlex", "query_or_endpoint": "FORWARD filter=cites:W4387596623 (MatFormer) sort=cited_by_count:desc", "n_results": 3, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:29:44Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma 4 E2B interpretability &sort=relevance_score:desc", "n_results": 228, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:29:47Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma 4 sparse autoencoder features &sort=relevance_score:desc", "n_results": 1385, "n_new_relevant": 0}
+{"ts": "2026-10-25T06:29:50Z", "catalog": "OpenAlex", "query_or_endpoint": "works?search=Gemma-4 activation steering residual stream &sort=relevance_score:desc", "n_results": 992, "n_new_relevant": 0}
